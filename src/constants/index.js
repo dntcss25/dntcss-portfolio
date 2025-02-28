@@ -3,38 +3,38 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `As a passionate Full Stack Developer with two years of experience, I specialize in building dynamic and scalable web applications, leveraging front-end technologies like Vue.js, Nuxt.js, and React, alongside back-end technologies such as Node.js, PostgreSQL, MySQL, and MongoDB. My expertise extends to API integration, optimizing data storage, and deploying robust solutions using Docker, containerization, and CI/CD pipelines, ensuring seamless system functionality and delivering innovative solutions that drive business growth.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for building efficient and user-friendly web applications. With two years of professional experience, I have worked with a range of technologies, including React, Next.js, Node.js, MySQL, and PostgreSQL. My journey in web development stems from my strong interest in logical thinking, which I greatly enjoy in programming, as it constantly challenges me to solve complex problems. I thrive in collaborative environments and continuously seek opportunities to learn and adapt to new challenges. Beyond coding, I enjoy tackling logical questions and problems, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Full Stack Web Developer",
+    company: "Centralized Cloud Computing International Inc.",
+    description: `Contributed to feature development, bug fixes, and system enhancements using Vue.js, Nuxt.js, and Node.js, manage PostgreSQL and MySQL databases, configure CI/CD pipelines, oversee Docker deployments, monitor infrastructure for reliability, ensure security through SSL renewals, collaborate using Git, follow Agile methodologies, provide client support, and take on leadership responsibilities as needed.`,
+    technologies: ["Javascript", "Vue.js", "Node.js", "postgreSQL", "Express.js", "CSS", "HTML"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "",
+    role: "Business Analyst",
+    company: "Centralized Cloud Computing International Inc.",
+    description: `I conducted client training sessions, developed user manuals, managed issue documentation and tracking, categorized and analyzed bugs, ensured system quality as a QA for support applications, gained experience in automated testing with Katalon Studio, and delivered system demos both onsite and remotely.`,
+    technologies: ["Presentations", "User Manual", "Client Trainings"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "",
+    role: "Intern",
+    company: "Centralized Cloud Computing International Inc.",
+    description: `I developed an Asset Management System using Vue.js, Nuxt.js, and Node.js, designing the ERD, setting up the backend with an MRC structure, creating REST API endpoints, implementing a user-friendly frontend, and presenting the system to leads and supervisors for feedback and approval.`,
+    technologies: ["Javascript", "Vue.js", "Node.js", "postgreSQL", "Express.js", "CSS", "HTML"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2020",
+    role: "Customer Care Representative",
+    company: "Alorica Philippines",
+    description: `Handled incoming calls and customer service inquiries for a U.S.-based pharmacy, providing support for healthcare account management.`,
+    technologies: [],
   },
 ];
 
