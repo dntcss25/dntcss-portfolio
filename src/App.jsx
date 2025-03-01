@@ -1,10 +1,6 @@
-import Navheader from "./components/Navheader"
-import Home from "./components/Home"
-import About from "./components/About"
-import Technologies from "./components/Technologies"
-import Experience from "./components/Experience"
-import Projects  from "./components/Projects"
-import Contact from "./components/Contact"
+import ProjectDetails  from "./components/ProjectDetails"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Dash from "./Dash"
 
 const App = () => {
   return (
@@ -14,13 +10,12 @@ const App = () => {
         <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
       </div>
       <div className="container mx-auto px-8">
-      <Navheader />
-      <Home />
-      <About />
-      <Technologies />
-      <Experience />
-      <Projects />
-      <Contact />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Dash />} />
+          <Route path="/project/:id" element={<ProjectDetails />} />
+        </Routes>
+      </Router>
       </div>
     </div>
   )
