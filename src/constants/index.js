@@ -1,4 +1,5 @@
-import project1 from "../assets/projects/project-1.jpg";
+import hris1 from "../assets/projects/hris/project-1.jpg";
+import hris2 from "../assets/projects/hris/project-1.2.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
@@ -42,10 +43,14 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Human Resource Information System",
-    image: project1,
+    image: hris1,
+    image1: hris2,
     description:
       "A software solution that helps organizations manage and automate various HR processes, improving efficiency, accuracy, and compliance.",
+    description1:
+      "",
     technologies: ["Vue.js", "Node.js", "PostgreSQL", "Express.js"],
+    source: `https://hris.marsu.edu.ph/`
   },
   {
     title: "Bookkeeping Website",
