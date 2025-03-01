@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `As a passionate Full Stack Developer with two years of experience, I specialize in building dynamic and scalable web applications, leveraging front-end technologies like Vue.js, Nuxt.js, and React, alongside back-end technologies such as Node.js, PostgreSQL, MySQL, and MongoDB. My expertise extends to API integration, optimizing data storage, and deploying robust solutions using Docker, containerization, and CI/CD pipelines, ensuring seamless system functionality and delivering innovative solutions that drive business growth.`;
 
@@ -40,37 +41,44 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Human Resource Information System",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A software solution that helps organizations manage and automate various HR processes, improving efficiency, accuracy, and compliance.",
+    technologies: ["Vue.js", "Node.js", "PostgreSQL", "Express.js"],
   },
   {
-    title: "Task Management App",
+    title: "Bookkeeping Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An online platform designed to help businesses and individuals manage their financial records, track income and expenses, and generate financial reports.",
+    technologies: ["Wix"],
   },
   {
-    title: "Portfolio Website",
+    title: "Computer Laboratory Management System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A software solution designed to enhance the efficiency of computer lab operations, ensuring smooth coordination between students, instructors, and administrators. The system aims to create a structured environment that supports effective teaching and learning during laboratory sessions.",
+    technologies: ["C#", "MS SQL Server"],
   },
   {
-    title: "Blogging Platform",
+    title: "Inventory Management System",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A software solution designed to track, manage, and optimize the storage, movement, and usage of goods within a business.",
+    technologies: ["HTML", "CSS", "PHP", "mySQL"],
+  },
+  {
+    title: "Asset Management System",
+    image: project5,
+    description:
+      "A software solution designed to track, manage, and optimize the lifecycle of physical and digital assets within an organization. It ensures efficient asset utilization, minimizes losses, and improves maintenance planning.",
+    technologies: ["Node.js", "Vue.js", "Express.js", "PostgreSQL"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Avida Residences, Dasmariñas City Cavite",
+  phoneNo: "+639 161994188",
+  email: "donalenetocmo@gmail.com",
 };
