@@ -1,5 +1,4 @@
-import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa"
-import { FaSquareXTwitter } from "react-icons/fa6"
+import { FaInstagram, FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa"
 import logo from "../assets/logo.png"
 
 const Navheader = () => {
@@ -9,10 +8,10 @@ const Navheader = () => {
         <img className="mx-2 w-10" src={logo} alt="logo" />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <FaLinkedin/>
-        <FaGithub/>
-        <FaInstagram/>
-        <FaSquareXTwitter/>
+        <a href="https://www.linkedin.com/in/donalene-tocmo-23b4342b3/"><FaLinkedin/></a>
+        <a href="https://github.com/dntcss25"><FaGithub/></a>
+        <a href="https://www.instagram.com/dntcsss/"><FaInstagram/></a>
+        <a href="https://www.facebook.com/dntcsss"><FaFacebook/></a>
       </div>
     </nav>
   )
